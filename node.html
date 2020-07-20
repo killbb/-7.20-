@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="window">
+
+    </div>
+</body>
+<script src="wheel.js"></script>
+</script>
+<script src="whell.js"></script>
+<script>
+    wheel(".window", {
+        imgs: ["./img/1.png", "./img/2.png", "./img/3.png"],
+        imgSize: [920,500],
+        imgcolor:["#7DA2C2","#0F1A2C","#0C71A7"],
+        links:["http://www.baidu.com","http://sxuek.com","https://www.tmall.com/"],
+        btncolor: "black",
+        btnactive: "red",
+        btnPos: ["center","20"],
+        runOpts: {
+            time: 3,
+            runstyle:"out",
+            eachtime:1
+    }
+})
+</script>
+</html>
